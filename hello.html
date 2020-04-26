@@ -2,10 +2,18 @@
 <html lang="en" dir="ltr">
   <style media="screen" >
     table, th, tr, td {border: 1px solid green; border-collapse: collapse;padding: 1em 2em 2em;border-top-width: thick;}
+    a:hover{color:pink}
+    a.highlight:hover{color:yellow}
+    .introduction{
+      color: red;
+    }
+    #top{
+      color: pink;
+    }
   </style>
     <head>
     <meta charset="utf-8">
-    <title>This is my Hello page</title>
+    <title>Hello page</title>
       <h1 style= "color: blue; font-size: 20px; font-family: Tahoma;text-align:center; ">
         This is my Hello Page
       </h1>
@@ -15,11 +23,11 @@
       <ol style="color: purple;border-color: red;text-align: left; text-decoration:underline;">  Tong quan ve he thong OHSAS:
         <li> <a href="https://www.google.com">
              <b>Planing</b> Clearly </a></li>
-        <li>Do</li>
-        <li>Check</li>
+        <li class="introduction"> Do</li>
+        <li id="top">Check</li>
         <li>Action</li>
-        <li> <a href="https://vnexpress.net">
-            <b>See more...</b> </a>
+        <li> <a href="https://vnexpress.net" class="highlight">
+            <b> See more...</b> </a>
          </li>
       </ol>
       <ul> Tong quan ve Planing
