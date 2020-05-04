@@ -1,0 +1,23 @@
+#top {
+  font-size: 50px;
+  font-weight: bold;
+  color: blue;
+  margin: 30px;
+}
+#middle {
+  font-size: 20px;
+  font-weight: bold;
+  color: blue;
+  margin: 30px;
+}
+#bottom {
+  font-size: 15px;
+  color: red;
+  margin: 30px;
+}
+
+h1 {
+  color: red;
+  text-decoration: underline;
+  font-size: 40px;
+}
